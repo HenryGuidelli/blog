@@ -12,7 +12,7 @@ fetch(link_json)
           const nome = data[key].nome;
           const local = data[key].local;
           const desc = data[key].descricao;
-          const tags = data[key].tag;
+          const tags = data[key].tags;
 
           console.log("Chave:", key);
           console.log("Id: %s \nNome: %s \nlocal: %s \nDescrição: %s \nTags: %s \n", id, nome, local, desc, tags);
