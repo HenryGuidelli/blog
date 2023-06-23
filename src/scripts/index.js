@@ -8,9 +8,14 @@ fetch(link_json)
 
     for (const key in data) {
         if (data.hasOwnProperty(key)) {
-          const item = data[key].id;
-        //   console.log("Chave:", key);
-          console.log("Valor:", item);
+          const id = data[key].id;
+          const nome = data[key].nome;
+          const local = data[key].caminho;
+          const desc = data[key].descricao;
+          const tags = data[key].tag;
+
+          console.log("Chave:", key);
+          console.log("Id: %s \nNome: %s \nlocal: %s \nDescrição: %s \nTags: %s \n", id, nome, local, desc, tags);
         }
       } 
 
