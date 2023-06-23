@@ -1,4 +1,4 @@
-var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/json/teste.json?token=GHSAT0AAAAAACEG57HUICL6DQ2AXYUHK4VGZEU5YEQ";
+var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/json/teste.json?token=GHSAT0AAAAAACEG57HVN5NZ4QN37XJLAHAYZEU54IQ";
 
 fetch(link_json)
   .then(response => response.json())
