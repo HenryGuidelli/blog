@@ -10,5 +10,17 @@
     },
     "descrição": ["(11) 1234-5678", "(11) 9876-5432"],
     "tags": ["programação", "música", "esportes"]
+  },
+  "post0001": {
+    "id": "João Silva",
+    "nome": 30,
+    "caminho": {
+      "rua": "Rua das Flores",
+      "número": 123,
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "descrição": ["(11) 1234-5678", "(11) 9876-5432"],
+    "tags": ["programação", "música", "esportes"]
   }
 }
