@@ -1,6 +1,6 @@
 {
   "post0000": {
-    "id": "João Silva",
+    "id": 0000,
     "nome": 30,
     "caminho": {
       "rua": "Rua das Flores",
@@ -12,8 +12,8 @@
     "tags": ["programação", "música", "esportes"]
   },
   "post0001": {
-    "id": "João Silva",
-    "nome": 35,
+    "id": 0001,
+    "nome": 50,
     "caminho": {
       "rua": "Rua das Flores",
       "número": 123,

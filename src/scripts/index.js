@@ -1,4 +1,4 @@
-var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/json/teste.json?token=GHSAT0AAAAAACEG57HUMLBUX5AUP7EUJ5JAZEU6P4Q";
+var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/json/teste.json";
 
 fetch(link_json)
   .then(response => response.json())
@@ -8,7 +8,7 @@ fetch(link_json)
 
     for (const key in data) {
         if (data.hasOwnProperty(key)) {
-          const item = data.post0000.nome;
+          const item = data[key].id;
         //   console.log("Chave:", key);
           console.log("Valor:", item);
         }
