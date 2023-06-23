@@ -2,12 +2,7 @@
   "post0000": {
     "id": "0000",
     "nome": 30,
-    "local": {
-      "rua": "Rua das Flores",
-      "número": 123,
-      "cidade": "São Paulo",
-      "estado": "SP"
-    },
+    "local": "aa",
     "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
     "tags": ["programação", "música", "esportes"]
   },
