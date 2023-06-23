@@ -23,8 +23,6 @@ fetch(link_json)
           console.log("Id: %s \nNome: %s \nlocal: %s \ndata: %s \nDescrição: %s \nTags: %s \n", id, nome, local, data, desc, tags);
         }
       } 
-
-    // console.log(data.post0000);
   })
   .catch(error => {
     console.error('Ocorreu um erro:', error);
