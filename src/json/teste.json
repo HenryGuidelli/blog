@@ -2,7 +2,7 @@
   "post0000": {
     "id": "0000",
     "nome": "30",
-    "local": "local0",
+    "local": "src/posts/post 1/index.html",
     "data": "01/01/2023",
     "descricao": "(11) 1234-5678",
     "tags": ["programação", "música", "esportes"]
