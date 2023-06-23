@@ -11,11 +11,18 @@ fetch(link_json)
           const id = data[key].id;
           const nome = data[key].nome;
           const local = data[key].local;
+          const data = data[key].data;
           const desc = data[key].descricao;
           const tags = data[key].tags;
 
+          // document.write("<div>");
+          // document.write("Id: "+id+"<br>");
+          // document.write("Nome: %s", nome);
+          // document.write();
+          // document.write("</div>");
+
           console.log("Chave:", key);
-          console.log("Id: %s \nNome: %s \nlocal: %s \nDescrição: %s \nTags: %s \n", id, nome, local, desc, tags);
+          console.log("Id: %s \nNome: %s \nlocal: %s \ndata: %s \nDescrição: %s \nTags: %s \n", id, nome, local, data, desc, tags);
         }
       } 
 
