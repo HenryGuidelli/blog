@@ -10,7 +10,7 @@ fetch(link_json)
         if (data.hasOwnProperty(key)) {
           const id = data[key].id;
           const nome = data[key].nome;
-          const local = data[key].caminho;
+          const local = data[key].local;
           const desc = data[key].descricao;
           const tags = data[key].tag;
 

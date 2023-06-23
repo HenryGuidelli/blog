@@ -8,18 +8,13 @@
       "cidade": "São Paulo",
       "estado": "SP"
     },
-    "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
+    "descricao": "(11) 1234-5678",
     "tags": ["programação", "música", "esportes"]
   },
   "post0001": {
     "id": "0001",
     "nome": 50,
-    "local": {
-      "rua": "Rua das Flores",
-      "numero": 123,
-      "cidade": "São Paulo",
-      "estado": "SP"
-    },
+    "local": "",
     "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
     "tags": ["programação", "música", "esportes"]
   }
