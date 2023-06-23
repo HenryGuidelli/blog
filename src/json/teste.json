@@ -3,14 +3,14 @@
     "id": "0000",
     "nome": "30",
     "local": "local0",
-    "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
+    "descricao": "(11) 1234-5678",
     "tags": ["programação", "música", "esportes"]
   },
   "post0001": {
     "id": "0001",
     "nome": "50",
     "local": "local1",
-    "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
+    "descricao": "(11) 1234-5678",
     "tags": ["programação", "música", "esportes"]
   }
 }
