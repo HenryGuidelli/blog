@@ -14,7 +14,7 @@
   "post0001": {
     "id": "0001",
     "nome": 50,
-    "local": "",
+    "local": "ss",
     "descricao": ["(11) 1234-5678", "(11) 9876-5432"],
     "tags": ["programação", "música", "esportes"]
   }
