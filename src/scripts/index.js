@@ -2,18 +2,16 @@ var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/j
 
 fetch(link_json)
   .then(response => response.json())
-  .then(data => {
+  .then(post => {
 
-    post = data;
-
-    for (const key in data) {
-        if (data.hasOwnProperty(key)) {
-          const id = data[key].id;
-          const nome = data[key].nome;
-          const local = data[key].local;
-          const data = data[key].data;
-          const desc = data[key].descricao;
-          const tags = data[key].tags;
+    for (const key in post) {
+        if (post.hasOwnProperty(key)) {
+          const id = post[key].id;
+          const nome = post[key].nome;
+          const local = post[key].local;
+          const data = post[key].data;
+          const desc = post[key].descricao;
+          const tags = post[key].tags;
 
           // document.write("<div>");
           // document.write("Id: "+id+"<br>");
