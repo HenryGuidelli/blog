@@ -4,15 +4,15 @@
     "nome": "Post 01",
     "local": "src/posts/post 1/index.html",
     "data": "01/01/2023",
-    "descricao": "(11) 1234-5678",
-    "tags": ["programação", "música", "esportes"]
+    "descricao": "DescriçãoDescriçãoDescriçãoDescriçãoDescrição",
+    "tags": ["programação ", "música ", "esportes"]
   },
   "post0001": {
     "id": "0001",
     "nome": "Post 02",
     "local": "src/posts/post 2/index.html",
     "data": "05/06/2023",
-    "descricao": "(11) 1234-5678",
+    "descricao": "DescriçãoDescriçãoDescriçãoDescriçãoDescrição",
     "tags": ["programação", "música", "esportes"]
   }
 }

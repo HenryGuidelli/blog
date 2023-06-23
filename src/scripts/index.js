@@ -1,13 +1,15 @@
 var link_json = "https://raw.githubusercontent.com/HenryGuidelli/blog/main/src/json/teste.json";
 
-function divPost(id, nome, local, data, descricao, tags) {
+function divPost(id, nome, local, data, desc, tags) {
   document.write(
-    "<div id='id'>"+
-    "<a href='"+local+"'>"+nome+"</a>"
-    +"</div>"
+    "<div id='"+id+"'>"+
+    "<a href='"+local+"'>"+nome+"</a><br>"+
+    desc+"<br>"+
+    data+ "|" +tags+
+    "</div><br>"
   );
 }
-
+function post (){
 fetch(link_json)
   .then(response => response.json())
   .then(post => {
@@ -32,3 +34,4 @@ fetch(link_json)
   .catch(error => {
     console.error('Ocorreu um erro:', error);
   });
+}
